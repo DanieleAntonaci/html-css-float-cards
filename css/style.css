@@ -1,0 +1,12 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 23px;
+}
