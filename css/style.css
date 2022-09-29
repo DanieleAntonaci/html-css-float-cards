@@ -8,11 +8,17 @@
 body{
     font-family: 'Comfortaa', cursive;
     font-family: 'Fredoka', sans-serif;
-    font-size: 23px;
-    width: 80%;
+    font-size: 25px;
+    width: 70%;
     margin: auto;
 }
 
+header{
+    text-align: center;
+  
+}
+
+/* Title */
 h1{
     text-align: center;
     margin: 30px;
@@ -20,34 +26,46 @@ h1{
 
 }
 
-header{
-    text-align: center;
-    /* DEBAGGING */
-    background-color: aqua ;
-}
-
-main{
-    
-}
+/* Row */
 .row{
     margin-top: 4%;
 }
 
-.row::after{
+.row::after, .card::after{
     content: "";
     display: table;
     clear: both;
 }
 
-.card{
-    background-color: brown;
-    border: 2px solid white;
-    width: 30%;
-    height: 100px;
-    float: left;
 
+/* Float cards */
+.card{
+    background-color: #000;
+    width: 30%;  
+    float: left;
+    box-shadow: 1px 1px 10px 3px grey;
+    color: white;
+    font-size: 80%;
+    vertical-align: middle;
 }
 
 .central-card{
     margin: 0 5%;
+}
+
+
+/* Float in cards */
+img{
+    max-height: 100px;
+    float: left;
+    padding-right: 2%;
+}
+
+a{
+    color: rgb(98, 212, 225);
+    text-decoration: none;
+}
+
+h4{
+    padding-top: 4%;
 }
